@@ -158,10 +158,13 @@ header {
 }
 
 .hero-surname:hover {
-  color: #b026ff;
+  color: #c0c0c0;
   text-shadow:
-    0 0 10px rgba(176, 38, 255, 0.7),
-    0 0 30px rgba(176, 38, 255, 0.3);
+    -1px -1px 0 #ff3030,
+     1px -1px 0 #ff3030,
+    -1px  1px 0 #ff3030,
+     1px  1px 0 #ff3030,
+     0 0 10px rgba(255, 48, 48, 0.5);
   transform: scale(1.04);
 }
 
@@ -312,7 +315,7 @@ header {
   width: 100%;
   height: 420px;
   object-fit: cover;
-  object-position: top center;
+  object-position: center 22%;
   border-radius: 8px;
 }
 
